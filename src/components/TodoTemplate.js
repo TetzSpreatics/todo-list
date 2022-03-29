@@ -6,7 +6,7 @@ const TodoTemplateBlock = styled.div`
   height: 768px;
 
   position: relative;
-  background: rgba(243, 115, 33, 1);
+  background: #f76e11;
   color: white;
   border-radius: 16px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
