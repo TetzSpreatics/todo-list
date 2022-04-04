@@ -12,14 +12,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-// function App() {
-//   return (
-//     <>
-//       <Test />
-//     </>
-//   );
-// }
-
 function App() {
   return (
     <>
@@ -32,5 +24,13 @@ function App() {
     </>
   );
 }
+
+// function App() {
+//   return (
+//     <>
+//       <Test />
+//     </>
+//   );
+// }
 
 export default App;
