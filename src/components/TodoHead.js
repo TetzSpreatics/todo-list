@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { useTodoState } from "../TodoContext";
 
 const TodoHeadBlock = styled.div`
   padding: 20px 30px 30px 30px;
@@ -34,6 +35,9 @@ function TodoHead() {
 
   let day = now.getDay();
   let dayStr = getDay(day);
+
+  const todos = useTodoState();
+  console.log(todos);
 
   return (
     <TodoHeadBlock>
